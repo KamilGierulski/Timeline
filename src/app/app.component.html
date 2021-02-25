@@ -2,7 +2,8 @@
   <div style="text-align:center">
     <ul *ngFor="let item of timelineObject">
        <li>
-          <h3>Country Name :{{item.data}}</h3>
+          <h3 class="row text-center">Country Name :{{item.data}} </h3>
+          <img [src] ="item.icon" >
        </li>
     </ul>
 </div>
