@@ -1,7 +1,8 @@
 <div class="flex-items">
   <div class="timeline-wrapper" *ngFor="let item of timelineObject">
     <h3 class="row text-center">{{ item.data }}</h3>
-    <hr />
+    <hr class="hr-vertical"  >
+    <hr class="hr-main">
     <img [src]="item.icon" />
   </div>
 </div>
