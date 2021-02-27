@@ -13,11 +13,7 @@ export class AppComponent {
     title: string,
     description: string,
     icon: string
-  }[]=timeline;
-
-
-
-  
+  }[]=timeline; 
 }
 
 

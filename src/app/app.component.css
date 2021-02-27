@@ -1,7 +1,56 @@
-#timeline{
-    display: block;
-    margin:auto;
-width: 100vh;
-border-radius: 5px;
-border: 10px solid blue;
+.flex-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#timeline {
+  display: inline-block;
+  margin: auto;
+  width: 10vh;
+  border: 4px solid blue;
+}
+.timeline-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+hr {
+  background-color: blue;
+  height: 4px;
+  width: 100%;
+  display: inline-block;
+  background: linear-gradient(to right,#2193b0, #6dd5ed);
+}
+hr:hover {
+  animation: change-color 0.2s forwards;
+}
+@keyframes change-color {
+  to {
+    background: green;
+  }
+}
+h3 {
+  margin: 0;
+  font-size: smaller;
+}
+img {
+  border: 10px;
+}
+h3,
+img {
+  height: 2rem;
+  /*margin: 0;*/
+}
+.timeline-wrapper:nth-child(2n) h3 {
+  order: 2;
+}
+
+.timeline-wrapper:nth-child(2n) img {
+  order: 0;
+}
+
+.timeline-wrapper:nth-child(2n) hr {
+  order: 1;
 }

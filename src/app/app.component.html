@@ -1,11 +1,7 @@
-<div>
-  <div style="text-align:center">
-    <ul *ngFor="let item of timelineObject">
-       <li>
-          <h3 class="row text-center">Country Name :{{item.data}} </h3>
-          <img [src] ="item.icon" >
-       </li>
-    </ul>
-</div>
-  <hr id="timeline">
+<div class="flex-items">
+  <div class="timeline-wrapper" *ngFor="let item of timelineObject">
+    <h3 class="row text-center">{{ item.data }}</h3>
+    <hr />
+    <img [src]="item.icon" />
+  </div>
 </div>
