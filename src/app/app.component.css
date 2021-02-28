@@ -31,6 +31,20 @@ h3 {
   margin: 0;
   font-size: smaller;
   align-content: flex-end;
+  color: blue;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 .timeline-wrapper:nth-child(2n) h3 {
   transform: translateY(190%);
@@ -73,7 +87,19 @@ img {
   height: 3rem;
   color: black;
   border: 1px solid black;
+  background: black;
+  animation: mymove 4s;
 }
+
+@keyframes mymove {
+  from {
+    border-color: black;
+  }
+  to {
+    border-color: blue;
+  }
+}
+
 .timeline-wrapper:nth-child(2n) .hr-vertical::after {
   content: "";
   display: inline-block;
