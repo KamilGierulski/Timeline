@@ -1,36 +1,50 @@
 [
-   { "data": "2016",
+  {
+    "data": "2016",
     "title": "wydarzenie1",
     "description": "opis1",
     "icon": "https://img.icons8.com/doodle/48/000000/lock--v1.png"
-   },
-   { "data": "2017",
+  },
+  {
+    "data": "2017",
     "title": "wydarzenie2",
     "description": "opis2",
     "icon": "https://img.icons8.com/doodle/48/000000/file--v1.png"
-   },
-   { "data": "2018",
+  },
+  {
+    "data": "2018",
     "title": "wydarzenie3",
     "description": "opis3",
     "icon": "https://img.icons8.com/doodle/48/000000/folder-invoices--v2.png"
-   },
-   { "data": "2019",
+  },
+  {
+    "data": "2019",
     "title": "wydarzenie4",
     "description": "opis4",
     "icon": "https://img.icons8.com/doodle/48/000000/image-file.png"
-   },{ "data": "2015",
+  },
+  {
+    "data": "2015",
     "title": "wydarzenie5",
     "description": "opis5",
     "icon": "https://img.icons8.com/doodle/48/000000/picture.png"
-   },
-   { "data": "2014",
+  },
+  {
+    "data": "2014",
     "title": "wydarzenie6",
     "description": "opis6",
     "icon": "https://img.icons8.com/doodle/48/000000/scroll.png"
-   }, { "data": "2015",
-      "title": "wydarzenie6",
-      "description": "opis6",
-      "icon": "https://img.icons8.com/doodle/48/000000/scroll.png"
-     }
-
+  },
+  {
+    "data": "2015",
+    "title": "wydarzenie6",
+    "description": "opis6",
+    "icon": "https://img.icons8.com/doodle/48/000000/scroll.png"
+  },
+  {
+    "data": "2015",
+    "title": "wydarzenie62",
+    "description": "opis5",
+    "icon": "https://img.icons8.com/doodle/48/000000/picture.png"
+  }
 ]

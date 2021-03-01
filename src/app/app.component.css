@@ -88,7 +88,8 @@ img {
   color: black;
   border: 1px solid black;
   background: black;
-  animation: mymove 4s;
+  animation: mymove 3s;
+  overflow: visible;
 }
 
 @keyframes mymove {
@@ -123,4 +124,16 @@ img {
   top: 45px;
   border-radius: 50%;
   border: 2px solid black;
+}
+@media screen and (max-width: 400px) {
+  .flex-items {
+    flex-wrap: nowrap;
+  }
+  h3,
+  img {
+    height: 3rem;
+  }
+  .timeline-wrapper:nth-child(2n) h3 {
+    transform: translateY(215%);
+  }
 }
